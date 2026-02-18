@@ -1,31 +1,6 @@
-import { useState } from 'react';
 import './Contact.css';
 
 function Contact() {
-  const [formData, setFormData] = useState({
-    name: '',
-    email: '',
-    message: '',
-  });
-  const [status, setStatus] = useState('');
-
-  const handleChange = (e) => {
-    setFormData({
-      ...formData,
-      [e.target.name]: e.target.value,
-    });
-  };
-
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    // For now, just show a success message
-    // In production, you'd send this to a backend
-    setStatus('Thank you for your message! I\'ll get back to you soon.');
-    setFormData({ name: '', email: '', message: '' });
-    
-    setTimeout(() => setStatus(''), 5000);
-  };
-
   return (
     <section id="contact" className="section contact">
       <div className="container">

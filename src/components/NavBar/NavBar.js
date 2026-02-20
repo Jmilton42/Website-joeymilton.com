@@ -63,7 +63,7 @@ function NavBar() {
             </li>
           ))}
           <li>
-            <a href="/resume.pdf" target="_blank" rel="noopener noreferrer" className="nav-link nav-resume">
+            <a href="/Resume.pdf" target="_blank" rel="noopener noreferrer" className="nav-link nav-resume">
               Resume
             </a>
           </li>

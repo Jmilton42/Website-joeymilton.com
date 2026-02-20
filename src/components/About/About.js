@@ -15,9 +15,9 @@ function About() {
           <div className="about-image">
             <div className="image-placeholder">
               <img src="/images/assests/Avatar.png" alt="Joey Milton" className="avatar-img" />
-            </div>
-            <div className="certification-badge">
-              <span className="cert-text">Open To Work</span>
+              <div className="certification-badge">
+                <span className="cert-text">Open To Work</span>
+              </div>
             </div>
             <div className="education-card">
               <h3>Education</h3>
